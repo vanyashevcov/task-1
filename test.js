@@ -12,4 +12,9 @@ describe('HTML structure test', () => {
     expect(html.includes('</p>')).toBeTruthy();
 
     // Перевірка, чи текст знаходиться всередині тегів <p>
-    const correctContent = `<p>A light and gently sweet breakfast dish or a dessert for picky eaters. With
+    const correctContent = `<p>A light and gently sweet breakfast dish or a dessert for picky eaters. With crispy coating and the light and soft inside, you get a lovely balance of
+flavors and textures. These delicious pancakes pair perfectly with sour cream and
+fruit in pretty much any form.</p>`;
+expect(html.includes(correctContent)).toBeTruthy();
+});
+});
